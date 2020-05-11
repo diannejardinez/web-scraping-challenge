@@ -1,7 +1,7 @@
 # Web Scraping - Mission to Mars
 
 **Objectives:**
-1. Create webscraping scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter
+1. Create webscraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter
 2. Use MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped
 
 **Part 1: Scraping**
