@@ -124,7 +124,7 @@ def scrape_info():
     soup = bs(html, "html5")
     # Getting image url
     schiaparelli = soup.find('img', class_='wide-image')['src']
-    schiaparelli_url = ('https://astrogeology.usgs.gov/' + str(cerberus)) 
+    schiaparelli_url = ('https://astrogeology.usgs.gov/' + str(schiaparelli)) 
     # Getting Hemisphere Name
     schiaparelli_title = soup.find('h2', class_='title').text
 
@@ -140,7 +140,7 @@ def scrape_info():
     soup = bs(html, "html5")
     # Getting image url
     syrtis_major = soup.find('img', class_='wide-image')['src']
-    syrtis_major_url = ('https://astrogeology.usgs.gov/' + str(cerberus)) 
+    syrtis_major_url = ('https://astrogeology.usgs.gov/' + str(syrtis_major)) 
     # Getting Hemisphere Name 
     syrtis_major_title = soup.find('h2', class_='title').text
 
@@ -156,7 +156,7 @@ def scrape_info():
     soup = bs(html, "html5")
     # Getting image url
     valles_marineris = soup.find('img', class_='wide-image')['src']
-    valles_marineris_url = ('https://astrogeology.usgs.gov/' + str(cerberus)) 
+    valles_marineris_url = ('https://astrogeology.usgs.gov/' + str(valles_marineris)) 
     # Getting Hemisphere Name 
     valles_marineris_title = soup.find('h2', class_='title').text
 
